@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MessageBoardMaps</title>
     <style>
-        html, body{
+        html,
+        body {
             width: 100%;
             height: 100%;
-            margin: 0;
         }
     </style>
 </head>
+
+<!-- 
+Naperville Location
+https://www.windy.com/?41.739,-88.152,12
+Radar - Play not Enabled
+https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOm51bGwsImNlbnRlciI6Wy04OC4yOTcsNDEuNzQ1XSwibG9jYXRpb24iOm51bGwsInpvb20iOjExLjI0Mzg1NDE0MjE2NTc2NH0sImFuaW1hdGluZyI6ZmFsc2UsImJhc2UiOiJzdGFuZGFyZCIsImFydGNjIjpmYWxzZSwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwicmZjIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6ZmFsc2UsIm9wYWNpdHkiOnsiYWxlcnRzIjowLjgsImxvY2FsIjowLjYsImxvY2FsU3RhdGlvbnMiOjAuOCwibmF0aW9uYWwiOjAuNn19
+Radar - Play Enabled         
+https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOm51bGwsImNlbnRlciI6Wy04OC4yOTcsNDEuNzQ1XSwibG9jYXRpb24iOm51bGwsInpvb20iOjExLjI0Mzg1NDE0MjE2NTc2NH0sImFuaW1hdGluZyI6dHJ1ZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5IjpmYWxzZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D
+-->
+
 <body>
-    <iframe width="100%" height="100%" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=5&overlay=wind&product=ecmwf&level=surface&lat=41.951&lon=-71.413" frameborder="0"></iframe>
+    <iframe title="testIframe" id="myIframe" width="100%" height="100%"
+        src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=12&overlay=wind&product=ecmwf&level=surface&lat=41.739&lon=-88.152"
+        frameborder="0"></iframe>
+        
     <!-- <iframe width="100%" height="100%" src="https://embed.windy.com/embed.html?type=map&location=coordinates&metricRain=default&metricTemp=default&metricWind=default&zoom=6&overlay=wind&product=ecmwf&level=surface&lat=41.492&lon=-79.277&detailLat=44.119&detailLon=-78.662&detail=true&message=true" frameborder="0"></iframe> -->
     <!-- <iframe src="https://embed.waze.com/iframe?zoom=13&lat=40.78247&lon=-73.97105&pin=1" width="100%" height="100%"></iframe> -->
 </body>
+
 </html>
